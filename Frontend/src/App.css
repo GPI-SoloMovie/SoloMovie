@@ -1,0 +1,33 @@
+/* src/App.css */
+body {
+  margin: 0;
+  background-color: #141414; /* Fondo oscuro tipo Netflix */
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  padding: 20px;
+  background-color: #000;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #333;
+}
+
+.logo {
+  color: #e50914; /* Rojo cinematográfico */
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+  padding: 40px;
+}
